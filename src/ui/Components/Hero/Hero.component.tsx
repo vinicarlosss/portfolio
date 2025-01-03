@@ -35,13 +35,13 @@ export const Hero = () => {
                             </Box>
                         </Grid2>
                         <Grid2 size={{ xs: 12, md: 7 }}>
-                            <Typography textAlign="center" color="primary.contrastText" variant="h1">
+                            <Typography textAlign="center" color="primary.contrastText" variant="h1" pb={2}>
                                 Carlos Vinícius
                             </Typography>
                             <Typography textAlign="center" color="primary.contrastText" variant="h2">
                                 Sou um engenheiro de software
                             </Typography>
-                            <Grid2 container display="flex" justifyContent="center" spacing={3}>
+                            <Grid2 container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid2 size={{ xs: 12, md: 4 }} display="flex" justifyContent="center">
                                     <StyledButton>
                                         <DownloadIcon />
