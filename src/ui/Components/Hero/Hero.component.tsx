@@ -49,13 +49,13 @@ export const Hero = () => {
                             </Typography>
                             <Grid2 container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid2 size={{ xs: 12, md: 4 }} display="flex" justifyContent="center">
-                                    <StyledButton>
+                                    <StyledButton onClick={() => console.log("download")}>
                                         <DownloadIcon />
                                         <Typography>Download CV</Typography>
                                     </StyledButton>
                                 </Grid2>
                                 <Grid2 size={{ xs: 12, md: 4 }} display="flex" justifyContent="center">
-                                    <StyledButton>
+                                    <StyledButton onClick={() => console.log("download")}>
                                         <EmailIcon />
                                         <Typography>Entre em contato</Typography>
                                     </StyledButton>
