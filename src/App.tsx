@@ -1,9 +1,10 @@
+import { Home } from "./ui/Screens"
 
 const App = () => {
 
   return (
     <>
-      App
+      <Home/>
     </>
   )
 }
